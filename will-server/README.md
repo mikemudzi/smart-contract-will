@@ -17,6 +17,8 @@ Navigate to project directory and run this commands to install server dependenci
     cd will-server
     npm install
     npm install truffle -g
+    truffle compile
+    truffle migrate
 
 ### src Folder structure
 ```
