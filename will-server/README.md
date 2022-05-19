@@ -4,6 +4,11 @@
 ### setting up Ganache
 
 Download and install the package for your operating system from https://www.trufflesuite.com/ganache
+Start Ganache and create a new workspace
+
+### install MongoDB or create a new db on mongo atlas
+
+### install ipfs
 
 ### Install Dependencies
 
@@ -12,6 +17,8 @@ Navigate to project directory and run this commands to install server dependenci
     cd will-server
     npm install
     npm install truffle -g
+    truffle compile
+    truffle migrate
 
 ### src Folder structure
 ```
