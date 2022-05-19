@@ -11,7 +11,7 @@ const IPFS = require("ipfs-http-client");
     });
  */
 
-const ipfs = IPFS("http://127.0.0.1:5002");
+const ipfs = IPFS("http://127.0.0.1:5001");
 
 function routes(app, dbClient, willContract, ethAccounts) {
 
